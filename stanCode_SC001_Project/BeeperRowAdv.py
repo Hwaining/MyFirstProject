@@ -1,6 +1,6 @@
 """
 File: BeeperRowAdv.py
-Name:
+Name: Tiffany Wu
 ------------------------------
 This program makes Karel fill up
 Street 1 with some beepers already
@@ -15,7 +15,15 @@ def main():
     """
     Karel will fill the first Street in any world
     """
-    pass
+    while front_is_clear():
+        if on_beeper():
+            move()
+        else:
+            put_beeper()
+            move()
+    if not on_beeper():
+        put_beeper()
+
 
 
 

@@ -1,6 +1,6 @@
 """
 File: BeeperRow.py
-Name:
+Name: Tiffany Wu
 -------------------------
 This program makes Karel fill up
 Street 1 with beepers
@@ -11,7 +11,10 @@ from karel.stanfordkarel import *
 
 
 def main():
-    pass
+    put_beeper()
+    while front_is_clear():
+        move()
+        put_beeper()
 
 
 # ----- DO NOT MODIFY CODE BELOW THIS LINE ----- #

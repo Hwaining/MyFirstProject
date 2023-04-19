@@ -1,6 +1,6 @@
 """
 File: MoveToTheEnd.py
-Name: Jerry Liao
+Name: Tiffany Wu
 ------------------------
 This file shows how to use while loop
 to walk to the end of a certain row in
